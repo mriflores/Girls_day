@@ -1,14 +1,14 @@
 # 433MHz RF Communication Project with ID Filtering
 
-This project implements a wireless communication system between two Arduino boards (Nano and Uno) using 433MHz Radio Frequency modules. It features a custom ID filtering system to ensure messages are processed only by the intended receiver.
+This project implements a wireless communication system between two Arduino board using 433MHz Radio Frequency modules. It features a custom ID filtering system to ensure messages are processed only by the intended receiver.
 
 ---
 
 ## Hardware Configuration
 
 ### Components Required
-* **Microcontrollers:** 1x Arduino Uno, 1x Arduino Nano.
-* **RF Kit:** 1x 433MHz Transmitter (FS-01P), 1x 433MHz Receiver (MX-05V).
+* **Microcontrollers:** 1x Arduino Uno, 1x Arduino Uno.
+* **RF Kit:** 1x 433MHz Transmitter (FS1000A), 1x 433MHz Receiver (XY-MX-5V).
 * **Antennas:** 2x 17.3 cm copper wires (Required for range beyond 10cm).
 
 ### Wiring Diagram
@@ -21,6 +21,9 @@ This project implements a wireless communication system between two Arduino boar
 | **Receiver DATA** | D11 | Data Output |
 | **Receiver VCC** | 5V | Power (Must be stable 5V) |
 | **Receiver GND** | GND | Ground |
+
+![Pinout](/asset/fs1000a-pinout.jpg)
+
 
 
 ---
