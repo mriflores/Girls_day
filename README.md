@@ -29,9 +29,3 @@ This project implements a wireless communication system between two Arduino boar
 
 The system uses the **RadioHead (RH_ASK)** library. It handles the physical layer bit-streaming, preamble, and CRC error checking.
 
-### Key Concepts
-* **Null Terminator (`\0`):** Used to close the character buffer upon reception to prevent memory "garbage" from being printed.
-* **Tokenization (`strtok`):** Splits the received string into the ID segment and the Message segment.
-* **String Comparison (`strcmp`):** Compares the incoming ID with the local constant to trigger actions.
-
----
