@@ -22,7 +22,6 @@ This project implements a wireless communication system between two Arduino boar
 | **Receiver VCC** | 5V | Power (Must be stable 5V) |
 | **Receiver GND** | GND | Ground |
 
-> **Pro-Tip:** Solder the 17.3 cm wire to the hole marked "ANT" on both modules. Keep the wire straight for maximum signal resonance at 433MHz.
 
 ---
 
