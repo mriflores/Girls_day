@@ -65,9 +65,9 @@ void reading_message(){
         message =strtok(NULL,"\0");
         
         if(id_read != NULL && strcmp(id_read, Mon_ID) == 0){
-            Serial.print("Recive: ");
+            Serial.print("Receive: ");
             Serial.println(message); 
-            
+            strupr(message);
             if(strcmp(message, "OPEN") == 0){
                 Serial.println("Opening doors");
                 int angle = 90;

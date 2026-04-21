@@ -70,3 +70,33 @@ Any message received with an incorrect ID (e.g., `300 OPEN` or just `OPEN`) will
 
 ## Important Notes
 * **Power Supply:** If the Arduino resets or the RF receiver stops working when the servo moves, it is highly recommended to power the servo with a separate 5V power supply. Remember to connect the ground (GND) of the external power supply to the Arduino's GND.
+
+---
+
+![Schematic Overview](/asset/Scheme-it-export-New-Project-2026-04-21-10-42.png)
+
+The uploaded image illustrates the specific wiring connections for two separate microcontroller nodes capable of two-way RF communication.
+
+**Node 1** (Top Section)
+    This node acts as the primary controller equipped with actuation capabilities.
+
+* Microcontroller: Arduino Uno (U1).
+
+* RF Transmitter (U2 - FS1000A): The Data pin is wired to digital pin D12 (blue wire).
+
+* RF Receiver (U3 - XY-MK-5V): The Data pin is wired to digital pin D11 (green wire).
+
+* Servo Motor (U4): The PWM signal pin is wired to digital pin D2 (orange wire).
+
+Power: All three peripherals (U2, U3, U4) share common 5V (red wires) and Ground (black wires) connections drawn directly from the Arduino Uno.
+
+**Node 2** (Bottom Section)
+    This node acts as the secondary transceiver.
+
+* Microcontroller: A compact Arduino board, such as a Nano or Micro (U5).
+
+* RF Transmitter (U6 - FS1000A): The Data pin is wired to digital pin D12 (blue wire).
+
+* RF Receiver (U7 - XY-MK-5V): The Data pin is wired to digital pin D11 (green wire).
+
+Power: Both RF modules draw 5V (red wires) and Ground (black wires) from the compact Arduino board.
