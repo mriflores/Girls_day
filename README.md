@@ -8,9 +8,9 @@ This project implements a wireless communication system between two Arduino boar
 
 ### Components Required
 * **Microcontrollers:** 2x Arduino Uno.
-* **RF Kit:** 1x 433MHz Transmitter (FS1000A), 1x 433MHz Receiver (XY-MX-5V).
+* **RF Kit:** 2x 433MHz Transmitter (FS1000A), 1x 433MHz Receiver (XY-MX-5V).
 * **Actuator:** 1x Servo Motor (e.g., SG90, MG996R).
-* **Antennas:** 2x 17.3 cm copper wires (Required for range beyond 10cm).
+* **Antennas:** 4x 17.3 cm copper wires (Required for range beyond 10cm).
 
 ### RF Wiring Diagram
 
