@@ -13,17 +13,12 @@ ServoTimer2 miServo;
 #define RECIVER_ID "300"
 
 void setup() {
-
     miServo.attach(rollPin);     
-    
     Serial.begin(9600);
-    
+
     if (!driver.init()) {
-    
         Serial.println("Init not working");
-    
     }
- 
 }
 
 void loop() {
