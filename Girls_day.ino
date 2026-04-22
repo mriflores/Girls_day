@@ -12,6 +12,7 @@ ServoTimer2 myServo;
 #define Mon_ID "100"
 #define RECIVER_ID "300"
 #define RADIO_RX_BUFFER 50
+
 void setup() {
     myServo.attach(rollPin);     
     Serial.begin(9600);
@@ -82,7 +83,7 @@ int incPulse(){
    if (Serial.available() > 0) {
     
     int angle = Serial.parseInt();
-    
+
     while(Serial.available() > 0) {
       Serial.read();
     }
