@@ -28,23 +28,20 @@ void loop() {
 }
 
 void Sending_message(){
+    if (Serial.available() == 0){
+        return;
+    }
 
- if (Serial.available() > 0) { 
+    String input = Serial.readStringUntil('\n'); 
+    if (input != NULL){
+        String message_id_temp = String(RECIVER_ID)+" "+input;
+        const char* msg = message_id_temp.c_str();
 
-        String input = Serial.readStringUntil('\n'); 
-        input.trim(); 
+        driver.send((uint8_t *)msg, strlen(msg));
+        driver.waitPacketSent();
 
-        if (input.length() > 0) {
-           
-            String message_id_temp = String(RECIVER_ID)+" "+input;
-            const char* msg = message_id_temp.c_str();
-
-            driver.send((uint8_t *)msg, strlen(msg));
-            driver.waitPacketSent(); 
-
-            Serial.print("Sending: ");
-            Serial.println(input.c_str());
-        }
+        Serial.print("Sending: ");
+        Serial.println(input.c_str());
     }
 }
 
