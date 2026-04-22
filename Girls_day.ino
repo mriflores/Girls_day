@@ -3,15 +3,15 @@
 #include <SPI.h> // not used, but important for getting fonctions for make it work
 #include <ServoTimer2.h>
 
-#define rollPin  2
+
 int pos = 0; 
 RH_ASK driver; // Config 2000bps, TX pin 12, RX  pin 11
-ServoTimer2 miServo; 
+ServoTimer2 myServo; 
 
-
+#define rollPin  2
 #define Mon_ID "100"
 #define RECIVER_ID "300"
-
+#define RADIO_RX_BUFFER 50
 void setup() {
     miServo.attach(rollPin);     
     Serial.begin(9600);
@@ -23,11 +23,11 @@ void setup() {
 
 void loop() {
     //incPulse();
-    Sending_message();
+    sending_message();
     reading_message();
 }
 
-void Sending_message(){
+void sending_message(){
     if (Serial.available() == 0){
         return;
     }
@@ -46,7 +46,7 @@ void Sending_message(){
 }
 
 void reading_message(){
-    uint8_t buf[50];
+    uint8_t buf[RADIO_RX_BUFFER];
     uint8_t buflen = sizeof(buf);
 
     if (!driver.recv(buf, &buflen)) {
