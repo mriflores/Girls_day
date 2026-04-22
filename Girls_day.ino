@@ -46,35 +46,35 @@ void Sending_message(){
 }
 
 void reading_message(){
-    uint8_t buf[50]; 
+    uint8_t buf[50];
     uint8_t buflen = sizeof(buf);
-    char * id_read;
-    char * message;
-    if (driver.recv(buf, &buflen)) { 
-        
-        buf[buflen]='\0'; //End of message
-        id_read = strtok((char*)buf, " ");
-        message =strtok(NULL,"\0");
-        
-        if(id_read != NULL && strcmp(id_read, Mon_ID) == 0){
-            Serial.print("Receive: ");
-            Serial.println(message); 
-            strupr(message);
-            if(strcmp(message, "OPEN") == 0){
-                Serial.println("Opening doors");
-                int angle = 90;
-                int anchoPulso = map(angle, 0, 180, 750, 2800);
-                miServo.write(anchoPulso);
 
-            }else if(strcmp(message, "CLOSE") == 0){
-                
-                Serial.println("Closing doors");
-                int angle = 0;
-                int anchoPulso = map(angle, 0, 180, 750, 2800);
-                miServo.write(anchoPulso);
+    if (!driver.recv(buf, &buflen)) {
+        return;
+    }
 
-            }
-        }
+    buf[buflen]='\0'; //End of message
+    char * id_read = strtok((char*)buf, " ");
+    char * message =strtok(NULL,"\0");
+
+    if(id_read == NULL || strcmp(id_read, Mon_ID) != 0){
+        return;
+    }
+
+    Serial.print("Receive: ");
+    Serial.println(message); 
+    strupr(message);
+
+    if(strcmp(message, "OPEN") == 0){
+        Serial.println("Opening door");
+        int angle = 90;
+        int anchoPulso = map(angle, 0, 180, 750, 2800);
+        miServo.write(anchoPulso);
+    } else if(strcmp(message, "CLOSE") == 0){
+        Serial.println("Closing door");
+        int angle = 0;
+        int anchoPulso = map(angle, 0, 180, 750, 2800);
+        miServo.write(anchoPulso);
     }
 }
 
