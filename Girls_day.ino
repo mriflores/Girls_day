@@ -13,7 +13,7 @@ ServoTimer2 myServo;
 #define RECIVER_ID "300"
 #define RADIO_RX_BUFFER 50
 void setup() {
-    miServo.attach(rollPin);     
+    myServo.attach(rollPin);     
     Serial.begin(9600);
 
     if (!driver.init()) {
@@ -69,12 +69,12 @@ void reading_message(){
         Serial.println("Opening door");
         int angle = 90;
         int anchoPulso = map(angle, 0, 180, 750, 2800);
-        miServo.write(anchoPulso);
+        myServo.write(anchoPulso);
     } else if(strcmp(message, "CLOSE") == 0){
         Serial.println("Closing door");
         int angle = 0;
         int anchoPulso = map(angle, 0, 180, 750, 2800);
-        miServo.write(anchoPulso);
+        myServo.write(anchoPulso);
     }
 }
 
@@ -96,7 +96,7 @@ int incPulse(){
     
       int anchoPulso = map(angle, 0, 180, 750, 2800);
       
-      miServo.write(anchoPulso);
+      myServo.write(anchoPulso);
       
     } else {
       Serial.println("Error: angle out of range");
