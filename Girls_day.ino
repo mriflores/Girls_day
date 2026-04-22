@@ -99,7 +99,7 @@ int incPulse(){
       miServo.write(anchoPulso);
       
     } else {
-      Serial.println("Error: anglee out of range");
+      Serial.println("Error: angle out of range");
     }
   } 
 }
