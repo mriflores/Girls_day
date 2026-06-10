@@ -16,10 +16,10 @@ This project implements a wireless communication system between two Arduino boar
 
 | RF Module | Arduino Pin | Description |
 | :--- | :--- | :--- |
-| **Transmitter DATA** | D12 | Data Input |
+| **Transmitter DATA** | D12 | Data Output |
 | **Transmitter VCC** | 5V | Power (Up to 12V for range) |
 | **Transmitter GND** | GND | Ground |
-| **Receiver DATA** | D11 | Data Output |
+| **Receiver DATA** | D11 | Data Input |
 | **Receiver VCC** | 5V | Power (Must be stable 5V) |
 | **Receiver GND** | GND | Ground |
 
