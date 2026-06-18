@@ -11128,7 +11128,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "EasyEDA:C0603"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 134.62 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -13259,28 +13259,28 @@
 			)
 		)
 		(pin "5"
-			(uuid "0d0a1ea4-5839-4842-921e-a141e0672634")
+			(uuid "0d0a1ea4-5839-4842-921e-a141e0672635")
 		)
 		(pin "3"
-			(uuid "2f3e1054-5a09-4c05-b986-8f3586ae9f37")
+			(uuid "2f3e1054-5a09-4c05-b986-8f3586ae9f38")
 		)
 		(pin "1"
-			(uuid "28526ab4-4b29-4d4b-93de-2aa3853aff1c")
+			(uuid "28526ab4-4b29-4d4b-93de-2aa3853aff1d")
 		)
 		(pin "4"
-			(uuid "fe6702fb-dfe2-4599-9cd5-9279806b433a")
+			(uuid "fe6702fb-dfe2-4599-9cd5-9279806b433b")
 		)
 		(pin "6"
-			(uuid "438a644a-f96e-4b6d-982d-d9b0d79a48b6")
+			(uuid "438a644a-f96e-4b6d-982d-d9b0d79a48b7")
 		)
 		(pin "7"
-			(uuid "a459f948-555b-4c76-aad6-05ae5a6bd686")
+			(uuid "a459f948-555b-4c76-aad6-05ae5a6bd687")
 		)
 		(pin "8"
-			(uuid "3f4aec20-e311-469f-b0da-79244d68fd17")
+			(uuid "3f4aec20-e311-469f-b0da-79244d68fd18")
 		)
 		(pin "2"
-			(uuid "3b867678-0d08-4817-bc5e-f55cd1bd9c6a")
+			(uuid "3b867678-0d08-4817-bc5e-f55cd1bd9c6b")
 		)
 		(instances
 			(project "PCB_GIRLS_DAY"
@@ -14096,7 +14096,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "EasyEDA:C0603"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 123.19 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -14476,7 +14476,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "EasyEDA:C0603"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 39.37 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -16146,7 +16146,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "EasyEDA:C0603"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 87.63 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -17069,7 +17069,7 @@
 			)
 		)
 		(property "Footprint" "EasyEDA:DO-35_BD2.0-L4.2-P8.20-D0.5-RD"
-			(at 166.37 91.44 0)
+			(at 167.132 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

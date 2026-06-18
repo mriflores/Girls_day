@@ -2270,6 +2270,18 @@
 		)
 		(uuid "7baad17a-2dbd-4cb6-bdba-ed7d33a7d9a9")
 	)
+	(rectangle
+		(start 15.24 139.7)
+		(end 76.2 196.85)
+		(stroke
+			(width 0.254)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "fd46a1cb-d97f-451d-8f8d-7c856baca828")
+	)
 	(text "Power Managament\n"
 		(exclude_from_sim no)
 		(at 36.576 28.956 0)
@@ -2281,6 +2293,18 @@
 			)
 		)
 		(uuid "83ec37d3-9f47-4760-a487-288142af2a5d")
+	)
+	(text "Power LED\n"
+		(exclude_from_sim no)
+		(at 27.94 143.256 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "d31aed50-a47b-4fd2-8ba4-216774d30fe1")
 	)
 	(wire
 		(pts

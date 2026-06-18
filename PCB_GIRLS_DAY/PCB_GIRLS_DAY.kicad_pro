@@ -632,7 +632,7 @@
         "uuid": "4a16a4d9-4fe7-4c30-8337-203b926a87e2"
       }
     ],
-    "used_designators": "",
+    "used_designators": "DC1,L1",
     "variants": []
   },
   "sheets": [
@@ -643,10 +643,6 @@
     [
       "701ea811-00f8-4bd6-9c82-57fae78c7ace",
       "SCH_MCU"
-    ],
-    [
-      "507d0985-0ad0-41a3-a25f-b635c54f7822",
-      "SCH_STLINK"
     ],
     [
       "f70abf0f-6381-48cd-95c6-56dde5548b7a",
