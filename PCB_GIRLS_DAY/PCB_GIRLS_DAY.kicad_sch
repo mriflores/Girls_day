@@ -4822,16 +4822,6 @@
 				(justify left)
 			)
 		)
-		(pin "PC9" input
-			(at 147.32 110.49 180)
-			(uuid "6e228fd9-b242-46aa-8833-13e50780e358")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "PC11" input
 			(at 147.32 115.57 180)
 			(uuid "e7523e48-f3ca-4a48-a239-efe6c1c712e4")
@@ -5131,16 +5121,6 @@
 		(pin "PC11" output
 			(at 135.89 115.57 0)
 			(uuid "ca277374-9586-45c7-8f1e-72f5e23e40e3")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "PC9" output
-			(at 135.89 110.49 0)
-			(uuid "62bf7838-4ba2-4c37-b839-7637d04317a9")
 			(effects
 				(font
 					(size 1.27 1.27)

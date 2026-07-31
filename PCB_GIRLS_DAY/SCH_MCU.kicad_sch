@@ -7380,12 +7380,20 @@
 		(uuid "6c7c0aac-e6c8-4788-94e0-f5c4686905f5")
 	)
 	(no_connect
+		(at 52.07 102.87)
+		(uuid "7bfb6502-d05d-4ce8-8600-71e64e3e44dc")
+	)
+	(no_connect
 		(at 118.11 82.55)
 		(uuid "a53ae485-037d-468b-a360-c3b38a2e0e07")
 	)
 	(no_connect
 		(at 99.06 130.81)
 		(uuid "a6fff300-6265-4472-9771-1fe4fec9680a")
+	)
+	(no_connect
+		(at 99.06 95.25)
+		(uuid "bfc796d3-4fec-4623-963c-fddf44696047")
 	)
 	(no_connect
 		(at 99.06 125.73)
@@ -10056,17 +10064,6 @@
 		)
 		(uuid "2098edf0-c817-4f36-85d4-bd9373b38364")
 	)
-	(hierarchical_label "PC9"
-		(shape input)
-		(at 52.07 102.87 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "20d8b318-4fe3-4dd2-ace3-a554c62599d0")
-	)
 	(hierarchical_label "PB6"
 		(shape input)
 		(at 104.14 127 0)
@@ -12620,7 +12617,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_E-Switch_EG1224_SPDT_Angled"
+		(property "Footprint" "Button_Switch_SMD:SW_SPDT_PCM12"
 			(at 25.4 62.23 0)
 			(hide yes)
 			(show_name no)

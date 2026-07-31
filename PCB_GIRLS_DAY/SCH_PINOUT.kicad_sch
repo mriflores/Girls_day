@@ -1929,6 +1929,10 @@
 		)
 		(uuid "de3b6638-dcea-420d-bd3d-07cacda930a8")
 	)
+	(no_connect
+		(at 181.61 115.57)
+		(uuid "094c6be4-8d22-43a9-8a35-5ac52e24117b")
+	)
 	(wire
 		(pts
 			(xy 100.33 101.6) (xy 111.76 101.6)
@@ -2472,17 +2476,6 @@
 			(justify left)
 		)
 		(uuid "1eaac692-c1ba-46e2-8288-cbe8f77c3f35")
-	)
-	(hierarchical_label "PC9"
-		(shape output)
-		(at 181.61 115.57 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "26e07b5c-cd90-475d-a524-8a726d1641d1")
 	)
 	(hierarchical_label "PC0"
 		(shape output)
