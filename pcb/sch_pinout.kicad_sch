@@ -1836,17 +1836,6 @@
 		)
 		(uuid "08e0918f-86db-47d6-adb0-01566ebefd7f")
 	)
-	(hierarchical_label "PC6"
-		(shape output)
-		(at 162.56 91.44 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "23460bc7-926c-4c8d-8b19-9489454a8cff")
-	)
 	(hierarchical_label "PB12"
 		(shape output)
 		(at 182.88 101.6 0)
@@ -1879,6 +1868,17 @@
 			(justify right)
 		)
 		(uuid "436562f2-8677-401f-8cd9-d0949f2a1379")
+	)
+	(hierarchical_label "PC8"
+		(shape output)
+		(at 162.56 91.44 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "45a7b09e-5999-4646-ba6f-8f66037ef307")
 	)
 	(hierarchical_label "PB14"
 		(shape output)
@@ -1913,17 +1913,6 @@
 		)
 		(uuid "61228a5b-7469-4a5a-a319-b480569adef3")
 	)
-	(hierarchical_label "PA0"
-		(shape output)
-		(at 162.56 109.22 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "61800b03-c960-4e89-b695-09c360c4c7f1")
-	)
 	(hierarchical_label "PB7"
 		(shape output)
 		(at 182.88 93.98 0)
@@ -1957,7 +1946,29 @@
 		)
 		(uuid "831f1e36-b316-4ca5-945a-6644eb30b953")
 	)
+	(hierarchical_label "PC6"
+		(shape output)
+		(at 162.56 96.52 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a8ae3903-468a-4c5d-82ef-2a07e4729d69")
+	)
 	(hierarchical_label "PA2"
+		(shape output)
+		(at 162.56 109.22 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ad084029-2174-4cc8-9eb0-b93fa9cd863c")
+	)
+	(hierarchical_label "PA0"
 		(shape output)
 		(at 162.56 104.14 180)
 		(effects
@@ -1966,7 +1977,7 @@
 			)
 			(justify right)
 		)
-		(uuid "af5cc981-b6dc-4722-bff9-892d48780677")
+		(uuid "b37efa15-ed11-4942-aedb-b7647f6c65c5")
 	)
 	(hierarchical_label "PA3"
 		(shape output)
@@ -2000,17 +2011,6 @@
 			(justify left)
 		)
 		(uuid "f7a55ac8-6175-4979-afb0-bd429bbe7da3")
-	)
-	(hierarchical_label "PC8"
-		(shape output)
-		(at 162.56 96.52 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "f953bdfd-5a4a-4f9a-aa84-766c3fa1734f")
 	)
 	(symbol
 		(lib_id "power:+3V3")
