@@ -18675,7 +18675,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EasyEDA:IND-SMD_L1.0-W0.5-2"
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
 			(at 63.5 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -20975,7 +20975,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Vertical"
+		(property "Footprint" "library:AntennaHole"
 			(at 116.84 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -21438,7 +21438,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Vertical"
+		(property "Footprint" "library:AntennaHole"
 			(at 99.06 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -23804,7 +23804,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EasyEDA:IND-SMD_L1.0-W0.5-2"
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
 			(at 134.62 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -25385,7 +25385,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "EasyEDA:IND-SMD_L10.2-W10.2-LS10.8"
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
 			(at 134.62 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -26116,7 +26116,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EasyEDA:IND-SMD_L1.8-W1.2"
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
 			(at 50.8 64.77 0)
 			(hide yes)
 			(show_name no)
