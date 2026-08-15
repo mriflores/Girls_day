@@ -34,6 +34,7 @@
       "footprint_text",
       "footprint_anchors",
       "ratsnest",
+      "grid",
       "footprints_front",
       "footprints_back",
       "footprint_values",
@@ -52,7 +53,7 @@
       "board_outline_area",
       "ly_points"
     ],
-    "visible_layers": "00000000_00000000_5555755f_ffffffff",
+    "visible_layers": "00000000_00000000_55557557_ffffffff",
     "zone_display_mode": 0
   },
   "git": {
@@ -62,7 +63,7 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "PCB_GIRLS_DAY.kicad_prl",
+    "filename": "enclosure_pcb.kicad_prl",
     "version": 5
   },
   "net_inspector_panel": {
@@ -91,16 +92,16 @@
       9
     ],
     "col_widths": [
-      51,
-      53,
-      75,
-      61,
-      65,
-      77,
+      62,
+      59,
+      82,
       67,
-      65,
-      33,
-      33
+      71,
+      84,
+      72,
+      71,
+      39,
+      40
     ],
     "custom_group_rules": [],
     "expanded_rows": [],

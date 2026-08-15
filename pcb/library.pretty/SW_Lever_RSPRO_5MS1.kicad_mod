@@ -1,0 +1,253 @@
+(footprint "SW_Lever_RSPRO_5MS1"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Switch, single pole double throw, right angle, http://www.nkkswitches.com/pdf/GW.pdf")
+	(tags "switch single-pole double-throw spdt ON-ON horizontal")
+	(property "Value" "SW_5MS1"
+		(at 4.7 7 0)
+		(layer "F.Fab")
+		(uuid "42efa419-3da8-4990-9e90-988684085956")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "785d46fe-2a9d-453b-a8c4-e0a0f06e63d9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Switch, single pole double throw"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3970c298-a00c-489a-8403-503dda1aced6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Reference" "SW2"
+		(at -5 1.5 0)
+		(layer "F.SilkS")
+		(uuid "b35581f7-d35d-42ff-8c41-86214bbba648")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(sheetname "/SCH_PWR/")
+	(sheetfile "sch_pwr.kicad_sch")
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -2.5 -0.1)
+		(end -2.5 11.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "62e6f19a-04b5-49da-a6c5-0fbab19fc6ad")
+	)
+	(fp_line
+		(start -2.5 11.5)
+		(end 12 11.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "777d6a69-aa1b-4cc5-a1ed-065234accd13")
+	)
+	(fp_line
+		(start 1.5 -0.1)
+		(end 3.2 -0.1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6af30a42-37e2-47cd-8e55-e4a44d695df1")
+	)
+	(fp_line
+		(start 6.2 -0.1)
+		(end 7.9 -0.1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d7b28df5-2177-4b97-9819-87bbbd1df12b")
+	)
+	(fp_line
+		(start 12 -0.1)
+		(end 12 11.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ae9d7486-134f-4891-af4d-a631fd216c01")
+	)
+	(fp_line
+		(start -2.5 -1.5)
+		(end -2.5 11.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f05cab89-e4be-4f8e-bdb0-229f4a9169cb")
+	)
+	(fp_line
+		(start -2.5 11.5)
+		(end 11.05 11.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "aacd7cd0-a8d3-4b72-8a84-25990468cf54")
+	)
+	(fp_line
+		(start 12 -1.5)
+		(end -2.5 -1.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f7def3bc-750d-444a-9a30-083da04b7eb7")
+	)
+	(fp_line
+		(start 12 9.53)
+		(end 12 -1.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "9d57afad-56ab-4518-9e4a-de0ae286b6a9")
+	)
+	(fp_line
+		(start -2.5 0)
+		(end 12 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0396c42e-987f-4338-9c95-cf08cb37287a")
+	)
+	(fp_line
+		(start -2.5 11.5)
+		(end -2.5 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d004b78f-c6d3-408c-9aff-c3f8451da601")
+	)
+	(fp_line
+		(start 12 0)
+		(end 12 11.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3b3a4ebb-09a2-4b16-9d3b-779d30aab220")
+	)
+	(fp_line
+		(start 12 11.5)
+		(end -2.5 11.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "35ef3c42-fbcb-49c2-bb2f-0f73c8e60bb7")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 5 3 0)
+		(layer "F.Fab")
+		(uuid "c4935b56-93e4-4730-bc1d-14043b423c51")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" thru_hole circle
+		(at -1.905 9.53)
+		(size 2.5 2.5)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "112791fb-c1c2-43f8-b055-35b076adbc71")
+	)
+	(pad "" thru_hole circle
+		(at 11.305 9.53)
+		(size 2.5 2.5)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d217eeb1-27da-45e8-83d3-e038d0b08f6d")
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 2.5 2.5)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d8de43c1-633b-4ade-8b0e-f55f4ef9854f")
+	)
+	(pad "2" thru_hole rect
+		(at 4.7 0)
+		(size 2.5 2.5)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c5f1c82b-db91-40d9-b115-406aa620d6a7")
+	)
+	(pad "3" thru_hole circle
+		(at 9.4 0)
+		(size 2.5 2.5)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f8432207-dc18-4d6a-a060-589d3db41686")
+	)
+	(embedded_fonts no)
+	(model "${KICAD10_3DMODEL_DIR}/Button_Switch_THT.3dshapes/SW_Lever_1P2T_NKK_GW12LxH.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

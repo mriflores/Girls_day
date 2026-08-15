@@ -50,7 +50,23 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.25
+          "border_display_style": 2,
+          "border_hatch_pitch": 0.5,
+          "corner_radius": 0.0,
+          "corner_smoothing": 0,
+          "fill_mode": 0,
+          "hatch_gap": 1.5,
+          "hatch_orientation": 0.0,
+          "hatch_smoothing_level": 0,
+          "hatch_smoothing_value": 0.1,
+          "hatch_thickness": 1.0,
+          "min_clearance": 0.25,
+          "min_island_area": 10.0,
+          "min_thickness": 0.25,
+          "pad_connection": 1,
+          "remove_islands": 0,
+          "thermal_relief_gap": 0.5,
+          "thermal_relief_spoke_width": 0.5
         }
       },
       "diff_pair_dimensions": [
@@ -496,7 +512,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "PCB_GIRLS_DAY.kicad_pro",
+    "filename": "enclosure_pcb.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -534,6 +550,7 @@
       "netlist": "",
       "plot": "",
       "specctra_dsn": "",
+      "step": "",
       "vrml": ""
     },
     "page_layout_descr_file": ""
@@ -651,12 +668,12 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "PCB_GIRLS_DAY.kicad_sch",
+        "filename": "enclosure_pcb.kicad_sch",
         "name": "Root",
         "uuid": "4a16a4d9-4fe7-4c30-8337-203b926a87e2"
       }
     ],
-    "used_designators": "",
+    "used_designators": "D2-3,D9,R2-3,R21-29,J1-3,J5,J7-8,F1-2,U2-4,S3,C12,C14,C27-28,SW1-3,#PWR5,#PWR7,#PWR26,#PWR43,#PWR45,#PWR51-53,#PWR55-60,#PWR72-74,Y1-3,AE3",
     "variants": []
   },
   "sheets": [

@@ -2081,7 +2081,7 @@
 			(uuid "730b9989-2c25-4626-9763-8185c66772e9")
 		)
 		(instances
-			(project "PCB_GIRLS_DAY"
+			(project "enclosure_pcb"
 				(path "/4a16a4d9-4fe7-4c30-8337-203b926a87e2/b67f4f69-488b-4c78-b1eb-3899eb6aef9b"
 					(reference "#PWR069")
 					(unit 1)
@@ -2159,7 +2159,7 @@
 			(uuid "6f725485-626d-44e1-b10c-e1074842bca9")
 		)
 		(instances
-			(project "PCB_GIRLS_DAY"
+			(project "enclosure_pcb"
 				(path "/4a16a4d9-4fe7-4c30-8337-203b926a87e2/b67f4f69-488b-4c78-b1eb-3899eb6aef9b"
 					(reference "#PWR067")
 					(unit 1)
@@ -2237,7 +2237,7 @@
 			(uuid "9535200d-8691-4427-9aaf-73a538df7806")
 		)
 		(instances
-			(project "PCB_GIRLS_DAY"
+			(project "enclosure_pcb"
 				(path "/4a16a4d9-4fe7-4c30-8337-203b926a87e2/b67f4f69-488b-4c78-b1eb-3899eb6aef9b"
 					(reference "#PWR046")
 					(unit 1)
@@ -2314,7 +2314,7 @@
 			(uuid "36c1e245-a153-412a-ac41-88e978959178")
 		)
 		(instances
-			(project "PCB_GIRLS_DAY"
+			(project "enclosure_pcb"
 				(path "/4a16a4d9-4fe7-4c30-8337-203b926a87e2/b67f4f69-488b-4c78-b1eb-3899eb6aef9b"
 					(reference "#PWR065")
 					(unit 1)
@@ -2392,7 +2392,7 @@
 			(uuid "ac3f7544-0a69-484a-9719-3b282226562c")
 		)
 		(instances
-			(project "PCB_GIRLS_DAY"
+			(project "enclosure_pcb"
 				(path "/4a16a4d9-4fe7-4c30-8337-203b926a87e2/b67f4f69-488b-4c78-b1eb-3899eb6aef9b"
 					(reference "#PWR047")
 					(unit 1)
@@ -2469,7 +2469,7 @@
 			(uuid "c4732cb5-6b0f-40b5-9a98-00ce2043fd12")
 		)
 		(instances
-			(project "PCB_GIRLS_DAY"
+			(project "enclosure_pcb"
 				(path "/4a16a4d9-4fe7-4c30-8337-203b926a87e2/b67f4f69-488b-4c78-b1eb-3899eb6aef9b"
 					(reference "#PWR064")
 					(unit 1)
@@ -2511,7 +2511,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_XA_B03B-XASK-1-A_1x03_P2.50mm_Vertical"
 			(at 116.84 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -2554,7 +2554,7 @@
 			(uuid "4d6cbf2d-5185-4e78-92a1-c5a6c9a8ad33")
 		)
 		(instances
-			(project "PCB_GIRLS_DAY"
+			(project "enclosure_pcb"
 				(path "/4a16a4d9-4fe7-4c30-8337-203b926a87e2/b67f4f69-488b-4c78-b1eb-3899eb6aef9b"
 					(reference "J4")
 					(unit 1)
@@ -2631,7 +2631,7 @@
 			(uuid "2d45c381-8bc0-4872-854a-3c3e26c35a0c")
 		)
 		(instances
-			(project "PCB_GIRLS_DAY"
+			(project "enclosure_pcb"
 				(path "/4a16a4d9-4fe7-4c30-8337-203b926a87e2/b67f4f69-488b-4c78-b1eb-3899eb6aef9b"
 					(reference "#PWR071")
 					(unit 1)
@@ -2777,7 +2777,7 @@
 			(uuid "46329eaa-5fe9-46ae-8984-769bcb1ff83a")
 		)
 		(instances
-			(project "PCB_GIRLS_DAY"
+			(project "enclosure_pcb"
 				(path "/4a16a4d9-4fe7-4c30-8337-203b926a87e2/b67f4f69-488b-4c78-b1eb-3899eb6aef9b"
 					(reference "J6")
 					(unit 1)
@@ -2854,7 +2854,7 @@
 			(uuid "09466623-0db9-4225-b096-99bfe6e837d3")
 		)
 		(instances
-			(project "PCB_GIRLS_DAY"
+			(project "enclosure_pcb"
 				(path "/4a16a4d9-4fe7-4c30-8337-203b926a87e2/b67f4f69-488b-4c78-b1eb-3899eb6aef9b"
 					(reference "#PWR070")
 					(unit 1)
@@ -2932,7 +2932,7 @@
 			(uuid "1d8e0ed0-472e-4ad5-a7df-9f88fae97bc3")
 		)
 		(instances
-			(project "PCB_GIRLS_DAY"
+			(project "enclosure_pcb"
 				(path "/4a16a4d9-4fe7-4c30-8337-203b926a87e2/b67f4f69-488b-4c78-b1eb-3899eb6aef9b"
 					(reference "#PWR068")
 					(unit 1)
@@ -3010,7 +3010,7 @@
 			(uuid "8404a7cf-c950-40fb-8c6b-53436f173f41")
 		)
 		(instances
-			(project "PCB_GIRLS_DAY"
+			(project "enclosure_pcb"
 				(path "/4a16a4d9-4fe7-4c30-8337-203b926a87e2/b67f4f69-488b-4c78-b1eb-3899eb6aef9b"
 					(reference "#PWR066")
 					(unit 1)
