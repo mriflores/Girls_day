@@ -3121,7 +3121,7 @@
 				(justify left top)
 			)
 		)
-		(pin "DATA IN" output
+		(pin "DATA IN" input
 			(at 210.82 35.56 180)
 			(uuid "0c6041e1-bb33-4d43-8fb7-7152bae58469")
 			(effects

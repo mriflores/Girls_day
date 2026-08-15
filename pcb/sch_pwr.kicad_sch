@@ -2424,6 +2424,16 @@
 	)
 	(wire
 		(pts
+			(xy 179.07 68.58) (xy 185.42 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d8e1261-6288-4082-b0d0-5159ccdefd11")
+	)
+	(wire
+		(pts
 			(xy 83.82 123.19) (xy 83.82 125.73)
 		)
 		(stroke
@@ -2544,6 +2554,16 @@
 	)
 	(wire
 		(pts
+			(xy 179.07 63.5) (xy 185.42 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c12fa4c0-dda9-4732-af5f-3bbf6c972eab")
+	)
+	(wire
+		(pts
 			(xy 68.58 115.57) (xy 76.2 115.57)
 		)
 		(stroke
@@ -2614,16 +2634,6 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 63.5) (xy 179.07 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e90035ff-fd0a-4149-8dd7-d184b37f001a")
-	)
-	(wire
-		(pts
 			(xy 187.96 110.49) (xy 196.85 110.49)
 		)
 		(stroke
@@ -2651,16 +2661,6 @@
 			(type default)
 		)
 		(uuid "f2c25a43-2ebc-497a-8b56-95439f07b252")
-	)
-	(wire
-		(pts
-			(xy 185.42 68.58) (xy 179.07 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f5ebd222-e80a-4585-b0c2-15c1757e8dd5")
 	)
 	(wire
 		(pts
@@ -5169,6 +5169,7 @@
 	(symbol
 		(lib_id "library:SW_Lever_RSPRO_5MS1")
 		(at 173.99 66.04 0)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5176,10 +5177,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "bb7627f2-b6f1-4641-ba0c-e0c4bd55db76")
 		(property "Reference" "SW2"
-			(at 173.99 57.15 0)
+			(at 171.196 56.134 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5189,7 +5189,7 @@
 			)
 		)
 		(property "Value" "SW_Lever_RSPRO_5MS1"
-			(at 173.99 59.69 0)
+			(at 172.466 58.674 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5199,7 +5199,7 @@
 			)
 		)
 		(property "Footprint" "library:SW_Lever_RSPRO_5MS1"
-			(at 173.99 76.2 0)
+			(at 173.99 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5210,7 +5210,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 173.99 73.66 0)
+			(at 173.99 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
