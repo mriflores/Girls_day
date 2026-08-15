@@ -8100,12 +8100,6 @@
 		(uuid "4217572f-28c3-4c0b-956e-7f8a731a2daf")
 	)
 	(junction
-		(at 39.37 71.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "428d94d3-03d9-40f0-b2ec-0c2235b94fc8")
-	)
-	(junction
 		(at 50.8 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9303,16 +9297,6 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 68.58) (xy 39.37 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7ce5fd02-5ec4-4123-ae68-0fd7796c4b9f")
-	)
-	(wire
-		(pts
 			(xy 46.99 115.57) (xy 58.42 115.57)
 		)
 		(stroke
@@ -10083,16 +10067,6 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 68.58) (xy 39.37 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d8ff7aad-5e7f-426d-a337-2f407b03785b")
-	)
-	(wire
-		(pts
 			(xy 101.6 57.15) (xy 101.6 59.69)
 		)
 		(stroke
@@ -10273,16 +10247,6 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 71.12) (xy 39.37 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f6ae1802-eb5d-4f6a-93fd-8496145aaa9e")
-	)
-	(wire
-		(pts
 			(xy 58.42 33.02) (xy 58.42 36.83)
 		)
 		(stroke
@@ -10290,16 +10254,6 @@
 			(type default)
 		)
 		(uuid "f82f7782-30eb-4319-9d08-b796a91753df")
-	)
-	(wire
-		(pts
-			(xy 39.37 71.12) (xy 41.91 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f8c76688-fc49-4ddb-9883-d881b4c2c415")
 	)
 	(wire
 		(pts
@@ -30358,84 +30312,6 @@
 			(project "enclosure_pcb"
 				(path "/4a16a4d9-4fe7-4c30-8337-203b926a87e2/701ea811-00f8-4bd6-9c82-57fae78c7ace"
 					(reference "R22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 41.91 71.12 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e065f050-f837-4898-84f4-9da61753cbb3")
-		(property "Reference" "#PWR032"
-			(at 48.26 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 46.99 71.12 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 41.91 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 41.91 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 41.91 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "25590f1b-f50c-44e4-a071-279c92db27ad")
-		)
-		(instances
-			(project "enclosure_pcb"
-				(path "/4a16a4d9-4fe7-4c30-8337-203b926a87e2/701ea811-00f8-4bd6-9c82-57fae78c7ace"
-					(reference "#PWR032")
 					(unit 1)
 				)
 			)
